@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: pink;
+    height: 200vh;
+}
+
+.logo{
+   
+    margin-left: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 30PX;
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    gap: 4rem;
+    margin-left: 30vw;
+}
+.right ul li{
+    list-style: none;
+    color: BLACK;  
+    cursor: pointer; 
+    font-weight: bolder;
+}
+.right ul li:hover{
+    color: aqua;
+}
+.first{
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    justify-content: center;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 230px;
+    height: 280px;
+    position: relative;
+    margin-top: 40px;
+    margin-right: 55px;
+    border-style: groove;
+}
+
+section.first > div :nth-child(1){
+     font-size: 35px;
+     font-weight: bolder;
+     color: BLACK;
+     text-decoration: underline;
+     margin-left: 300px;
+     position: relative;
+
+}
+section.first > div :nth-child(3){
+        
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;   
+        align-items: center;
+        justify-content: center;
+    }
+    .first p{
+        margin-left: 80px;
+    }
+    
+    .flag a{
+        cursor: pointer;
+        margin-left: 6vw;
+        border: black 2px solid;
+        color: black;
+        border-radius: 30px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        background-color: rgba(182, 142, 149, 0.858);
+        top: 10vh;
+       
+       padding: 7px;
+
+
+    }
+    .flag a:hover{
+        background-color: aqua;
+    }
+    .im{
+        display: flex;
+    }
+    .vab h1{
+        align-items: center;
+        font-size: 40px;
+        justify-content: center;
+        margin-left:43vw;
+        text-decoration: underline;
+        margin-top: 8vh;
+    }
+    .im img{
+        height: 260px;
+        margin-left: 10vw;
+        margin-top: 10vh;
+        cursor: pointer;
+        border: blue;
+    }
+    .contact h1{
+        align-items: center;
+        font-size: 40px;
+        justify-content: center;
+        margin-left:43vw;
+        text-decoration: underline;
+        margin-top: 8vh;
+     
+        
+    }
+    .con span{
+        font-size: 26px;
+        margin-left: 35vw;
+       margin-top: 30vh;
+       cursor: pointer;
+    }
+    .con span:hover{
+        color: aqua;
+    }
+   
+       
