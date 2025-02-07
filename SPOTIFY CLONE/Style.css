@@ -10,6 +10,13 @@ body {
     height: 100vh;
     padding: 0.5rem;
 }
+@media (max-width: 550px){
+    side-bar{
+        width: 20vw;
+    }
+}
+
+
 .side-bar{
     background-color: black;
     width: 340px;
